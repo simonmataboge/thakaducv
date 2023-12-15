@@ -1,0 +1,238 @@
+
+ul li{
+    padding:10px;
+    list-style:none;
+    margin-left:-20px;
+}
+.title {
+    background: linear-gradient(#ea27d3, #0ef, #ea27d3);
+    height: 70px;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+}
+
+@media screen and (max-width:400px ) {
+    .title {
+        width: 490px;
+    }
+}
+
+.content {
+    margin-top: 5px;
+    padding: 20px;
+    font-size: 14px;
+    background: linear-gradient(#ea27d3, #0ef, #ea27d3);
+    height: 360px;
+    color: white;
+}
+
+@media screen and (max-width:1000px ) {
+    .content {
+        height: 430px;
+    }
+}
+
+@media screen and (max-width:400px ) {
+    .content {
+        width: 490px;
+    }
+}
+
+.content p{
+    padding:10px;
+    margin-left:100px;
+    width:800px;
+    white-space:pre-line;
+}
+@media screen and (max-width:1000px ) {
+    .content p{
+        margin-left:-10px;
+        width:480px;
+        
+    }
+}
+.sidebar {
+    background: linear-gradient(#ea27d3, #0ef, #ea27d3);
+    height: 900px;
+    width: 280px;
+    padding: 20px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+@media screen and (max-width:1000px ) {
+    .sidebar {
+        width: 480px;
+    }
+}
+
+
+.edu {
+    margin-left: 285px;
+    background: linear-gradient(#ea27d3, #0ef, #ea27d3);
+    width: 720px;
+    padding: 10px;
+    margin-top: -900px;
+    color: white;
+}
+
+@media screen and (max-width:1000px ) {
+    .edu {
+        margin-left: 0px;
+        width: 480px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:400px ) {
+    .edu {
+        margin-top: -583px;
+    }
+}
+
+.inst {
+    background: linear-gradient(#ea27d3, #0ef, #ea27d3);
+    margin-left: -10px;
+    color: white;
+    width: 240px;
+    padding: 10px;
+    font-size: 14px;
+    display: inline-block;
+}
+@media screen and (max-width:1000px ) {
+    .inst {
+        width:480px;
+    }
+}
+.skills-details {
+    display: inline-block;
+    width: 220px;
+}
+
+.company {
+    background: linear-gradient(#ea27d3, #0ef, #ea27d3);
+    margin-left: 10px;
+    width: 320px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:1000px ) {
+    .company {
+        margin-left: 10px;
+        width: 480px;
+    }
+}
+
+@media screen and (max-width:400px ) {
+    .company {
+        margin-left: 100px;
+        width: 280px;
+    }
+}
+
+@media screen and (max-width:1000px ) {
+    .company ul {
+        margin-left: -50px;
+    }
+}
+
+.work {
+    height: 420px;
+    text-align: center;
+    padding: 0px;
+    margin-top: 100px;
+}
+
+@media screen and (max-width:1000px ) {
+    .work {
+        text-align:center;
+        margin-top: 120px;
+        height: 540px;
+    }
+}
+
+.bottom h1 {
+    text-align: center;
+}
+
+.contact {
+    background-color:;
+    margin-left: 10px;
+    color:;
+    width: 300px;
+    margin-top: 50px;
+    padding: 10px;
+    display: inline-block;
+}
+
+@media screen and (max-width:1000px ) {
+    .contact {
+        margin-left: 0px;
+        width: 220px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+}
+
+.contact ul {
+    background: linear-gradient(#ea27d3, #0ef, #ea27d3);
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
+
+@media screen and (max-width:1000px ) {
+    .contact h4 {
+        text-align: left;
+    }
+}
+
+.bottom {
+    margin-top: 100px;
+    margin-left:40px;
+}
+
+@media screen and (max-width:1000px ) {
+    .bottom {
+        margin-left: 0px;
+        width: 120px;
+        margin-top: 40px;
+    }
+}
+
+.footer {
+    background: linear-gradient(#ea27d3, #0ef, #ea27d3);
+    height: 100px;
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width:1000px ) {
+    .footer {
+        margin-top: 500px;
+    }
+}
+
+@media screen and (max-width:400px ) {
+    .footer {
+        width: 490px;
+    }
+}
+
+.fa {
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+    .footer .fa:hover {
+        color: red;
+    }
