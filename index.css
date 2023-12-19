@@ -71,7 +71,7 @@ ul li{
 @media screen and (max-width:400px ) {
     .sidebar {
         width: 490px;
-        height: 1200px;
+        height: 1500px;
     }
 }
 .edu {
@@ -86,7 +86,7 @@ ul li{
 @media screen and (max-width:1000px ) {
     .edu {
         margin-left: 0px;
-        width: 480px;
+        width: 490px;
         margin-top: 20px;
     }
 }
@@ -108,7 +108,7 @@ ul li{
 }
 @media screen and (max-width:1000px ) {
     .inst {
-        width:480px;
+        width:490px;
     }
 }
 .skills-details {
@@ -130,13 +130,13 @@ ul li{
 @media screen and (max-width:1000px ) {
     .company {
         margin-left: 10px;
-        width: 480px;
+        width: 490px;
     }
 }
 
 @media screen and (max-width:400px ) {
     .company {
-        margin-left: 10px;
+        margin-left: 0px;
         width: 490px;
     }
 }
