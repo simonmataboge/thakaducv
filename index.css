@@ -65,7 +65,7 @@ ul li{;
 }
 .sidebar {
     background: linear-gradient(#ea27d3, #0ef, #ea27d3);
-    height: 500px;
+    height: 460px;
     width: 280px;
     padding: 20px;
     margin-top: 5px;
@@ -75,7 +75,7 @@ ul li{;
 
 @media screen and (max-width:1000px ) {
     .sidebar {
-        width: 480px;
+        width: 490px;
     }
 }
 
@@ -90,7 +90,7 @@ ul li{;
     background: linear-gradient(#ea27d3, #0ef, #ea27d3);
     width: 720px;
     padding: 10px;
-    margin-top: -500px;
+    margin-top: -460px;
     color: white;
 }
 
@@ -123,23 +123,23 @@ ul li{;
 }
 .skills-details {
     display: inline-block;
-    width: 220px;
+    width: 150px;
 }
 
 .company {
-    background: linear-gradient(#ea27d3, #0ef, #ea27d3);
+    
     margin-left: 0px;
-    width: 234px;
+    width: 230px;
     padding: 10px;
     display: inline-block;
     text-align: ;
     color: white;
-    margin-top: 20px;
+    margin-top: -10px;
 }
 
 @media screen and (max-width:1000px ) {
     .company {
-        margin-top: 5px;
+        margin-top:-10px;
         width: 260px;
     }
 }
@@ -161,21 +161,23 @@ ul li{;
 }
 
 .work {
-    height: 420px;
+    height:269px;
     text-align: ;
-    padding: 0px;
-    margin-top: -280px;
-	margin-left: 280px;
+    padding: 10px;
+    margin-top: -268px;
+	margin-left: 285px;
 	width: 720px;
+	background: linear-gradient(#ea27d3, #0ef, #ea27d3);
+	color: white;
 }
 
 @media screen and (max-width:1000px ) {
     .work {
         text-align:;
-        margin-top: -650px;
-        height: 540px;
+        margin-top: -623px;
+        height: 623px;
 		margin-left: 220px;
-		width: 300px;
+		width: 300px;padding: 0px;
     }
 }
 @media screen and (max-width:400px ) {
@@ -185,16 +187,14 @@ ul li{;
         height: 500px;
     }
 }
-.bottom h1 {
-    text-align: center;
-}
+
 
 .contact {
-    background-color:;
-    margin-left: 10px;
-    color:;
-    width: 220px;
-    margin-top: -10px;
+    
+    
+    color:white;
+    width: 280px;
+	margin-top: -10px;
     padding: 10px;
     display: inline-block;
 }
@@ -202,9 +202,8 @@ ul li{;
 @media screen and (max-width:1000px ) {
     .contact {
         margin-left: 0px;
-        width: 220px;
-        font-size: 14px;
-        margin-top: 20px;
+        width: 230px;
+        margin-top: 0px;
     }
 }
 
@@ -221,17 +220,19 @@ ul li{;
     }
 }
 
-.bottom {
-    margin-top: -270px;
+.bottom { 
+    margin-top: -320px;
     margin-left:0px;
-	width: 200px;
+	width: 280px;
+	background: linear-gradient(#ea27d3, #0ef, #ea27d3);
+	color: white;
 }
 
 @media screen and (max-width:1000px ) {
     .bottom {
         margin-left: 0px;
-        width: 120px;
-        margin-top: 40px;
+        width: 220px;
+        margin-top: 5px;
     }
 }
 
@@ -239,14 +240,14 @@ ul li{;
     background: linear-gradient(#ea27d3, #0ef, #ea27d3);
     height: 100px;
     color: white;
-    margin-top: -110px;
+    margin-top: 5px;
     text-align: center;
     padding: 20px;
 }
 
 @media screen and (max-width:1000px ) {
     .footer {
-        margin-top: 180px;
+        margin-top: 5px;
     }
 }
 
